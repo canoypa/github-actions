@@ -1,0 +1,11 @@
+name: NO-CHECKOUT
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Run script
+        run: echo Hello, world!!
